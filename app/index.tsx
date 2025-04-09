@@ -1,0 +1,17 @@
+import { Alert, Text, View } from "react-native";
+
+export default function Index() {
+  Alert.alert("Hello", "World");
+
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Text>Edit app/index.tsx to edit this screen.</Text>
+    </View>
+  );
+}
